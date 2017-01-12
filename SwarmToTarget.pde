@@ -7,11 +7,11 @@
 final int NUM_BOIDS = 40; // Size of the swarm
 final int MAX_FITNESS = 1000; // Start the fitness off really high
 final int MAX_VELOCITY = 250; // To the particles from flying to fast
-final int TARGETX = 0; // Will se the initial target pos to the middle 
-final int TARGETY = 0; // of the screen in the setup func
 
 // Global Variables
 Particle[] p; // Array of Particle objects
+int TARGETX = 0; // Will se the initial target pos to the middle 
+int TARGETY = 0; // of the screen in the setup func
 float gBest;  // Global best
 int gBestIndex; // Index of global best
 
